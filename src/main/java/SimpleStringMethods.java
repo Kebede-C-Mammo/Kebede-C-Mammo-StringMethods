@@ -14,7 +14,7 @@ public class SimpleStringMethods {
      * @return the length of string s.
      */
     public int getStringLength(String s){
-        return 0;
+        return (s.length());
     }
 
     /**
@@ -24,7 +24,8 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char getCharacterAtIndex(String s, int n){
-        return ' ';
+        char myChar = s.charAt(n);
+        return myChar;
     }
 
     /**
@@ -36,7 +37,8 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int getIndexGivenCharacter(String s, char c){
-        return 0;
+        int firstOccurOfC = s.indexOf(c);
+        return firstOccurOfC;
     }
 
 }
